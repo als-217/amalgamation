@@ -1,5 +1,5 @@
 # amalgamation
-A rating system for NBA teams created by combining several models.
+
 There are countless models for predicting basketball games and rating the teams that play in those games. Many focus on rating teams as a sum of their parts, or rather a sum of their statistics. Others look at individual players and try to generalize their performances to an entire season. Suprisingly few of the papers I read brought both ends of the spectrum together. So, I became curious as to what could be done when these two types of models were combined,
 I started by reading papers in journals and in Medium articles to search for the models that I believed would be the best candidates to combine together. After a few days of reading and taking notes I decided on how I would combine the models I had been reading about.
 I am going to use artificial neural networks to model the probability a team has of winning at a certain point in the game. This model will use a traditional elo rating, time remaining, who has the ball, and the score differential to make its predictions.
