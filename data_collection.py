@@ -183,7 +183,8 @@ def get_live_lineups():
     for idx, player in current_lineups:
         if player == 'Starters':
             index += 1
-            current_lineups[idx] = games_teams[index]
+            
+        current_lineups[idx] = {'player': player, 'team': games_teams[index]}
     
     return current_lineups
 
