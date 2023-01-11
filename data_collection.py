@@ -3,9 +3,6 @@
 
 # This notebook is for collecting a cleaning data for the model.
 
-# In[2]:
-
-
 import pandas as pd
 import numpy as np
 from selenium import webdriver
